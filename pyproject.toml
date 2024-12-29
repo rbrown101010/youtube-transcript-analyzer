@@ -1,24 +1,18 @@
-[build-system]
-requires = ["hatchling"]
-build-backend = "hatchling.build"
-
-[project]
+[tool.poetry]
 name = "youtube-transcript-analyzer"
 version = "0.1.0"
-authors = [
-  { name="Riley Brown", email="rileykirkwoodbrown@gmail.com" },
-]
 description = "A CrewAI project for analyzing YouTube video transcripts"
+authors = ["Riley Brown <rileykirkwoodbrown@gmail.com>"]
 readme = "README.md"
-requires-python = ">=3.8"
-dependencies = [
-    "crewai",
-    "langchain",
-    "requests",
-    "python-dotenv",
-    "openai",
-]
 
-[project.urls]
-"Homepage" = "https://github.com/rbrown101010/youtube-transcript-analyzer"
-"Bug Tracker" = "https://github.com/rbrown101010/youtube-transcript-analyzer/issues" 
+[tool.poetry.dependencies]
+python = ">=3.10,<=3.13"
+crewai = "*"
+langchain = "*"
+requests = "*"
+python-dotenv = "*"
+openai = "*"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api" 
