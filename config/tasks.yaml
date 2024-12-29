@@ -1,0 +1,32 @@
+research_task:
+  description: >
+    Research and analyze the latest developments in AI technology, focusing on:
+    - Recent breakthroughs
+    - Industry trends
+    - Notable implementations
+    - Future predictions
+  expected_output: >
+    A comprehensive research summary including key findings, trends, and supporting data.
+  agent: research_analyst
+
+writing_task:
+  description: >
+    Create an engaging article based on the research findings that explains:
+    - Key technological breakthroughs
+    - Their potential impact
+    - Future implications
+    - Real-world applications
+  expected_output: >
+    A well-structured article that effectively communicates the research findings to a technical audience.
+  agent: content_writer 
+
+analyze_video_task:
+  description: >
+    Extract and analyze the transcript from a YouTube video to provide:
+    - Main topics and key points
+    - Sentiment analysis
+    - Key insights and takeaways
+    - Summary of the content
+  expected_output: >
+    A detailed analysis report including the main points, insights, and overall summary of the video content.
+  agent: youtube_analyst 
