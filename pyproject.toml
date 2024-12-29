@@ -6,7 +6,7 @@ build-backend = "hatchling.build"
 name = "youtube-transcript-analyzer"
 version = "0.1.0"
 authors = [
-  { name="Riley Brown", email="your.email@example.com" },
+  { name="Riley Brown", email="rileykirkwoodbrown@gmail.com" },
 ]
 description = "A CrewAI project for analyzing YouTube video transcripts"
 readme = "README.md"
